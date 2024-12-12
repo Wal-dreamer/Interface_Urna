@@ -71,13 +71,13 @@ class Painel extends JPanel {
         g.setColor(Color.WHITE);
         g.drawString("0", x0 + 20, y0 + 35);
         
-     // Botão Nulo
-        int nuloX = startX + 3 * (width + 10);
-        int nuloY = startY + 4 * (height - 60);
+     // Botão Branco
+        int brancoX = startX + 3 * (width + 10);
+        int brancoY = startY + 4 * (height - 60);
         g.setColor(Color.WHITE);
-        g.fillRect(nuloX, nuloY, 3 * width, height);
+        g.fillRect(brancoX, brancoY, 3 * width, height);
         g.setColor(Color.BLACK);
-        g.drawString("NULO", nuloX + 40, nuloY + 35);
+        g.drawString("BRANCO", brancoX + 40, brancoY + 35);
         
      // Botão Corrige
         int corrigeX = startX + 3 * (width + 10);
